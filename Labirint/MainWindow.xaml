@@ -1,0 +1,103 @@
+﻿<Window x:Class="Labirint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labirint"
+        mc:Ignorable="d"
+        Title="Labirint" Height="487.758" Width="709.145" ResizeMode="NoResize" Loaded="Window_Loaded" MouseEnter="Window_MouseEnter">
+    <Grid x:Name="Labirint">
+
+        <Border BorderThickness="2" BorderBrush="Black" Width="681" Height="437" MouseEnter="Border_MouseEnter"  >
+            <Canvas HorizontalAlignment="Left"   Height="437" Margin="10,10,0,0" VerticalAlignment="Top" Width="681" Grid.ColumnSpan="2" >
+                <Label Content="" Canvas.Left="607" Canvas.Top="388" Height="14" Width="60" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" MouseEnter="Label_MouseEnter" />
+                <Label Content="" Canvas.Left="407" Canvas.Top="347" Height="15" Width="234" Background="#FF9289CD" MouseEnter="Label_MouseEnter" />
+                <Label Content="" Canvas.Left="366" Canvas.Top="388" Height="14" Width="214" Background="#FF9289CD" MouseEnter="Label_MouseEnter" />
+                <Label Content="" Canvas.Left="366" Canvas.Top="402" Height="21" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="407" Canvas.Top="219" Height="128" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="444" Canvas.Top="313" Height="12" Width="223" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="444" Canvas.Top="185" Height="128" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="264" Canvas.Top="185" Height="14" Width="192" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="347" Canvas.Top="328" Height="14" Width="60" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="375" Canvas.Top="367" Height="21" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="309" Canvas.Top="367" Height="14" Width="69" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="309" Canvas.Top="270" Height="97" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="224" Canvas.Top="219" Height="14" Width="183" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="347" Canvas.Top="256" Height="72" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="360" Canvas.Top="256" Height="12" Width="27" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="264" Canvas.Top="270" Height="15" Width="50" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="264" Canvas.Top="284" Height="118" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="276" Canvas.Top="388" Height="14" Width="20" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="10" Canvas.Top="388" Height="14" Width="226" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="224" Canvas.Top="270" Height="118" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="224" Canvas.Top="185" Height="34" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="74" Canvas.Top="219" Height="14" Width="127" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="188" Canvas.Top="185" Height="34" Width="13" Background="#FF9289CD" RenderTransformOrigin="-1.418,0.544" />
+                <Label Content="" Canvas.Left="10" Canvas.Top="347" Height="41" Width="12" Background="#FF9289CD" RenderTransformOrigin="-0.195,0.643" />
+                <Label Content="" Canvas.Top="348" Height="14" Width="105" Background="#FF9289CD" Canvas.Left="22" />
+                <Label Content="" Canvas.Left="127" Canvas.Top="270" Height="12" Width="27" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="141" Canvas.Top="282" Height="85" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="114" Canvas.Top="270" Height="85" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="154" Canvas.Top="355" Height="12" Width="47" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="189" Canvas.Top="270" Height="85" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Top="311" Height="14" Width="97" Background="#FF9289CD" Canvas.Left="-10" />
+                <Label Content="" Canvas.Left="74" Canvas.Top="233" Height="80" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="279" Canvas.Top="151" Height="34" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="189" Canvas.Top="151" Height="12" Width="133" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="375" Canvas.Top="256" Height="48" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="154" Canvas.Top="82" Height="117" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="22" Canvas.Top="185" Height="14" Width="132" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="189" Canvas.Top="117" Height="34" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="42" Canvas.Top="199" Height="100" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="22" Canvas.Top="282" Height="17" Width="20" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="10" Canvas.Top="236" Height="63" Width="15" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="-10" Canvas.Top="233" Height="14" Width="35" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="202" Canvas.Top="117" Height="13" Width="94" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="347" Canvas.Top="151" Height="12" Width="141" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="347" Canvas.Top="117" Height="34" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="318" Canvas.Top="117" Height="14" Width="60" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="476" Canvas.Top="163" Height="128" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="476" Canvas.Top="279" Height="12" Width="165" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="625" Canvas.Top="80" Height="199" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="595" Canvas.Top="80" Height="15" Width="46" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="595" Canvas.Top="10" Height="70" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="625" Canvas.Top="-12" Height="56" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="454" Canvas.Top="10" Height="12" Width="141" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="189" Canvas.Top="80" Height="15" Width="171" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="318" Canvas.Top="117" Height="14" Width="170" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="347" Canvas.Top="10" Height="12" Width="79" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="444" Canvas.Top="10" Height="85" Width="14" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="407" Canvas.Top="-12" Height="22" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="378" Canvas.Top="44" Height="73" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="410" Canvas.Top="15" Height="73" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="454" Canvas.Top="80" Height="15" Width="30" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="476" Canvas.Top="44" Height="51" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="492" Canvas.Top="44" Height="15" Width="46" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="562" Canvas.Top="61" Height="51" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="562" Canvas.Top="46" Height="15" Width="46" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="511" Canvas.Top="97" Height="51" Width="16" Background="#FF9289CD" RenderTransformOrigin="-0.4,0.723" />
+                <Label Content="" Canvas.Left="511" Canvas.Top="82" Height="15" Width="51" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="527" Canvas.Top="133" Height="15" Width="81" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="511" Canvas.Top="146" Height="101" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="511" Canvas.Top="247" Height="15" Width="97" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="592" Canvas.Top="174" Height="73" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="546" Canvas.Top="174" Height="15" Width="46" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="546" Canvas.Top="177" Height="56" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="558" Canvas.Top="219" Height="14" Width="20" Background="#FF9289CD" RenderTransformOrigin="0.796,0.897" />
+                <Label Content="" Canvas.Left="10" Canvas.Top="44" Height="15" Width="377" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="181" Canvas.Top="10" Height="12" Width="141" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="181" Canvas.Top="-12" Height="34" Width="13" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="21" Canvas.Top="126" Height="73" Width="16" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="53" Canvas.Top="10" Height="12" Width="141" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="94" Canvas.Top="82" Height="15" Width="73" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="53" Canvas.Top="22" Height="22" Width="12" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="-9" Canvas.Top="10" Height="15" Width="46" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="-9" Canvas.Top="82" Height="15" Width="73" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="22" Canvas.Top="126" Height="15" Width="105" Background="#FF9289CD" />
+                <Label Content="" Canvas.Left="111" Canvas.Top="126" Height="37" Width="16" Background="#FF9289CD" />
+                <Label x:Name="labelStart" Content="Start" Canvas.Left="636" Canvas.Top="402" Height="21" Width="31" Background="#FFB03612" RenderTransformOrigin="0.796,0.897" FontSize="10" />
+                <Label x:Name="labelFinish" Content="Finish" Canvas.Left="194" Canvas.Top="-11" Height="21" Width="42" Background="#FF20B012" RenderTransformOrigin="0.796,0.897" FontSize="10" MouseEnter="LabelFinish_MouseEnter" />
+            </Canvas>
+        </Border>
+    </Grid>
+</Window>
